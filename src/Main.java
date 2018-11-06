@@ -266,16 +266,9 @@ public class Main {
                             String pasta;
                             pasta = scan.next();
                             if (pasta.equals("ja")){
-                                System.out.println("Hier is uw pasta dat is dan 2,50.");
-                                geld = geld - 2.50;
-                                System.out.println(	"                 _        \n" +
-                                        "                | |       \n" +
-                                        " _ __   __ _ ___| |_ __ _ \n" +
-                                        "| '_ \\ / _` / __| __/ _` |\n" +
-                                        "| |_) | (_| \\__ \\ || (_| |\n" +
-                                        "| .__/ \\__,_|___/\\__\\__,_|\n" +
-                                        "| |                       \n" +
-                                        "|_|                       ");
+                                System.out.println("Hier is uw pasta dat is dan 5 euro.");
+                                geld = geld - 5;
+                                System.out.println("\uD83C\uDF5D");
                                 System.out.println("Je hebt nog " + geld + " over");
                                 System.out.println(" ");
                                 continue;
